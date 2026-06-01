@@ -138,3 +138,8 @@ Caused by: java.lang.IllegalStateException: Cannot load driver class: org.h2.Dri
 2026-06-01T18:30:47.284+07:00  WARN 23404 --- [SLF4J] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2026-06-01T18:30:48.329+07:00  INFO 23404 --- [SLF4J] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
 2026-06-01T18:30:48.340+07:00  INFO 23404 --- [SLF4J] [main] org.example.slf4j.Slf4JApplication       : Started Slf4JApplication in 12.415 seconds (process running for 13.808)
+2026-06-01T18:42:52.089+07:00  INFO 23404 --- [SLF4J] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T18:42:52.345+07:00  INFO 23404 --- [SLF4J] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-01T18:42:52.357+07:00  INFO 23404 --- [SLF4J] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T18:42:52.362+07:00  INFO 23404 --- [SLF4J] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T18:42:52.372+07:00  INFO 23404 --- [SLF4J] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
