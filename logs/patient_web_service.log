@@ -107,3 +107,34 @@ Caused by: java.lang.IllegalStateException: Cannot load driver class: org.h2.Dri
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155) ~[spring-beans-7.0.7.jar:7.0.7]
 	... 37 common frames omitted
 
+2026-06-01T18:30:37.745+07:00  INFO 23404 --- [SLF4J] [main] org.example.slf4j.Slf4JApplication       : Starting Slf4JApplication using Java 17.0.15 with PID 23404 (C:\Users\Laptop\Music\javaC\SLF4J\build\classes\java\main started by Laptop in C:\Users\Laptop\Music\javaC\SLF4J)
+2026-06-01T18:30:37.756+07:00  INFO 23404 --- [SLF4J] [main] org.example.slf4j.Slf4JApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T18:30:39.652+07:00  INFO 23404 --- [SLF4J] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T18:30:39.720+07:00  INFO 23404 --- [SLF4J] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 0 JPA repository interfaces.
+2026-06-01T18:30:41.602+07:00  INFO 23404 --- [SLF4J] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-01T18:30:41.646+07:00  INFO 23404 --- [SLF4J] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T18:30:41.647+07:00  INFO 23404 --- [SLF4J] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-01T18:30:41.891+07:00  INFO 23404 --- [SLF4J] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3993 ms
+2026-06-01T18:30:42.436+07:00  INFO 23404 --- [SLF4J] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-01T18:30:42.697+07:00  INFO 23404 --- [SLF4J] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-01T18:30:44.784+07:00  INFO 23404 --- [SLF4J] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T18:30:44.931+07:00  INFO 23404 --- [SLF4J] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T18:30:45.624+07:00  INFO 23404 --- [SLF4J] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11228bee
+2026-06-01T18:30:45.629+07:00  INFO 23404 --- [SLF4J] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T18:30:45.846+07:00  INFO 23404 --- [SLF4J] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/medical_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: medical_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T18:30:47.114+07:00  INFO 23404 --- [SLF4J] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T18:30:47.140+07:00  INFO 23404 --- [SLF4J] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T18:30:47.284+07:00  WARN 23404 --- [SLF4J] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-01T18:30:48.329+07:00  INFO 23404 --- [SLF4J] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T18:30:48.340+07:00  INFO 23404 --- [SLF4J] [main] org.example.slf4j.Slf4JApplication       : Started Slf4JApplication in 12.415 seconds (process running for 13.808)
